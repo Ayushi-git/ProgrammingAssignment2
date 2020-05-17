@@ -1,7 +1,7 @@
 ## This is programming assigment with respect to R programming Coursera - Lexical Scoping in R
 
 ## This makeCacheMatrix function take a matrix as input. Here considering the matrix entered is squared invertible matrix.
-## It cache the inverse of input matrix
+## It cache the inverse of input matrix using solve function
 
 makeCacheMatrix <- function(x = matrix()){
 ## This function creates a special "matrix" object that can cache its inverse        
